@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Red-Artistas": {
+    "Red-Artista": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/red-artistas",
+            "outputPath": "dist/red-artista",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -29,12 +29,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
-            "server": "src/main.server.ts",
-            "prerender": true,
-            "ssr": {
-              "entry": "server.ts"
-            }
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -64,10 +59,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Red-Artistas:build:production"
+              "buildTarget": "Red-Artista:build:production"
             },
             "development": {
-              "buildTarget": "Red-Artistas:build:development"
+              "buildTarget": "Red-Artista:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -99,6 +94,6 @@
     }
   },
   "cli": {
-    "analytics": false
+    "analytics": "0d78148c-7198-41f0-9a8c-1eb650926fd8"
   }
 }
