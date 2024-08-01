@@ -37,6 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'Ilustracion.apps.IlustracionConfig',
+    'Genero.apps.GeneroConfig',
+    'IlustracionGenero.apps.IlustraciongeneroConfig',
+    'Comentario.apps.ComentarioConfig',
+    'Reaccion.apps.ReaccionConfig',
+    'Seguido.apps.SeguidoConfig',
+    'Seguidor.apps.SeguidorConfig',
+    'Usuario.apps.UsuarioConfig',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
@@ -76,11 +85,11 @@ WSGI_APPLICATION = 'Backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'redsocial',  # Nombre de tu base de datos
-        'USER': 'jhon',                        # Tu nombre de usuario
-        'PASSWORD': 'Katzuga6',           # Tu contraseña
-        'HOST': 'red-art.mysql.database.azure.com',  # Dirección del servidor
-        'PORT': '3306',                        # Puerto de conexión (usualmente 3306)
+        'NAME': 'redsocial',  
+        'USER': 'jhon',                    
+        'PASSWORD': 'Katzuga6',
+        'HOST': 'red-art.mysql.database.azure.com',
+        'PORT': '3306',                        
     }
 }
 

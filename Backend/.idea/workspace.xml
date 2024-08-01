@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e77bee3c-5fbc-4a7f-9a20-9e2b91c6c005" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Red-Artista/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Red-Artista/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Backend/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2jyDBC2JkM7WG2lbrrxrNWWu838" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,7 +29,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Pruebas__Jhon",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Jhon/RedArt/Backend",
+    "last_opened_file_path": "C:/Jhon/NUevoo/ProyectoWeb/demo_cliente",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,6 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1722350284820</updated>
       <workItem from="1722350285889" duration="453000" />
+      <workItem from="1722535400946" duration="102000" />
     </task>
     <servers />
   </component>
