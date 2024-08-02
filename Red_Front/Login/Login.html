@@ -13,10 +13,10 @@
     <div class="login-container">
 
         <!-- Login -->
-        <form id="login-form" action="#" method="post">
+        <form id="login-form">
             <div class="input-group">
-                <span class="material-symbols-outlined icon">email</span>
-                <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                <span class="material-symbols-outlined icon">person</span>
+                <input type="text" id="username" name="username" placeholder="userName" required>
             </div>
             <div class="input-group">
                 <span class="material-symbols-outlined icon">lock</span>
@@ -25,6 +25,7 @@
             <button class="iniciar" type="submit">Iniciar Sesión</button>
             <button class="registrar" id="register-btn" type="button">Registrarse ahora</button>
         </form>
+        
 
 
         <!-- Sing Up -->
@@ -32,31 +33,43 @@
             <form id="registration-form" action="#" method="post">
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">person</span>
-                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    <input class="form2" type="text" id="name" name="name" placeholder="Nombre" required>
                 </div>
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">person</span>
-                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                    <input class="form2" type="text" id="lasName" name="lasName" placeholder="Apellido" required>
                 </div>
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">account_circle</span>
-                    <input type="text" id="username" name="username" placeholder="Usuario" required>
+                    <input class="form2" type="text" id="userName" name="userName" placeholder="Usuario" required>
+                </div>
+                <div class="input-group">
+                    <span class="material-symbols-outlined icon">person</span>
+                    <input class="form2" type="text" id="description" name="description" placeholder="Descripcion" required>
                 </div>
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">phone</span>
-                    <input type="tel" id="telefono" name="telefono" placeholder="Teléfono" required>
-                </div>
-                <div class="input-group">
-                    <span class="material-symbols-outlined icon">Face</span>
-                    <input type="text" id="sex_reg" name="sex" placeholder="Genero" required>
+                    <input class="form2" type="number" id="age" name="age" placeholder="Edad" required>
                 </div>
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">email</span>
-                    <input type="email" id="email-reg" name="email" placeholder="example@gmail.com" required>
+                    <input class="form2" type="email" id="email" name="email" placeholder="example@gmail.com" required>
                 </div>
                 <div class="input-group">
                     <span class="material-symbols-outlined icon">lock</span>
-                    <input type="password" id="password-reg" name="password" placeholder="Contraseña" required>
+                    <input class="form2" type="password" id="password" name="password" placeholder="Contraseña" required>
+                </div>
+                <div class="input-group">
+                    <span class="material-symbols-outlined icon">Face</span>
+                    <input class="form2" type="text" id="sex" name="sex" placeholder="Genero" required>
+                </div>
+                <div class="input-group">
+                    <span class="material-symbols-outlined icon">phone</span>
+                    <input class="form2" type="number" id="telephone" name="telephone" placeholder="Teléfono" required>
+                </div>
+                <div class="input-group">
+                    <span class="material-symbols-outlined icon">phone</span>
+                    <input class="form2" type="number" id="ilustracion" name="ilustracion" placeholder="Ilustracion" required>
                 </div>
                 <button class="iniciar" type="submit">Registrarse</button>
                 <button class="registrar" id="cancel-btn" type="button">Cancelar</button>
